@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333;
+  margin-top: 20rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #333;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.container {
+  margin: 8rem auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 40rem;
+  background-color: #fff;
+  overflow: hidden;
+}
+.container .title {
+  margin: 2rem 0;
+  padding-inline: 1.5rem;
+  font-size: 2rem;
+}
+.container .form-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 0 1.5rem;
+}
+.container .form-input i {
+  margin-right: 5px;
+}
+.container .products {
+  margin-top: 15px;
+  width: 100%;
+  max-height: 40rem;
+  overflow-y: auto;
+}
+.container .products .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+  padding: 8px 20px;
+  height: 10rem;
+}
+.container .products .product img {
+  width: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-right: 20px;
+}
+
+.hide {
+  display: none !important;
+}

@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  color: #fff;
+  margin-top: 20rem;
+  background-color: #333;
+  opacity: 1;
+}
+body h1 {
+  text-align: center;
+}
+
+.range {
+  margin: 0 auto;
+  background-color: #fff;
+  width: 50rem;
+  height: 3rem;
+  border-radius: 99999px;
+}
+.range-bar {
+  height: inherit;
+  border-radius: inherit;
+  background: -webkit-gradient(linear, left top, right bottom, from(#b3c2a1), to(#c6c58d));
+  background: linear-gradient(to bottom right, #b3c2a1, #c6c58d);
+  text-align: center;
+}

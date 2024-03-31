@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  display: flex;
+  color: #333;
+  margin-top: 20rem;
+  justify-content: center;
+  background-color: #333;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+.container {
+  margin: 8rem auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 40rem;
+
+  background-color: #fff;
+  overflow: hidden;
+
+  .title {
+    margin: 2rem 0;
+    padding-inline: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .form-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 0 1.5rem;
+
+    i {
+      margin-right: 5px;
+    }
+  }
+
+  .products {
+    margin-top: 15px;
+    width: 100%;
+    max-height: 40rem;
+    overflow-y: auto;
+    .product {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      margin-bottom: 10px;
+      padding: 8px 20px;
+      height: 10rem;
+
+      img {
+        width: 50px;
+        object-fit: cover;
+        object-position: center;
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+.hide {
+  display: none !important;
+}
